@@ -48,7 +48,7 @@ Dev Detective is a user-friendly web tool that leverages the GitHub API to provi
 
 ## Demo
 
-To see Dev Detective in action, check out our live demo [here](devdetective.mantragor.tech).
+To see Dev Detective in action, check out our live demo [here](https://devdetective.mantragor.tech).
 
 ## Dark Mode and Light Mode
 
@@ -56,7 +56,7 @@ Dev Detective offers both Dark Mode and Light Mode to enhance user experience. Y
 
 ## Installation
 
-Dev Detective is a web-based tool, so there's no need for installation. Simply visit the website at [devdetective.mantragor.tech](devdetective.mantragor.tech).
+Dev Detective is a web-based tool, so there's no need for installation. Simply visit the website at [devdetective.mantragor.tech](https://devdetective.mantragor.tech).
 
 ## Contributing
 
