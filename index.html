@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Detective - Mantra Gor</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/011b5473ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header class="header-section">
+            <p class="heading">DevDetective</p>
+            <div class="theme-section">
+                <p class="modetext">DARK</p>
+                <img src="./assets/moon-icon.svg" draggable="false" width="15px" class="modeicon"/>
+            </div>
+        </header>
+        <main class="main-section">
+            <div class="search-box">
+                <div>
+                    <img src="./assets/search-icon.svg" alt="search icon" width="20px">
+                    <input type="text" placeholder="Enter GitHub Username" class="search-bar" required />
+                </div>
+                <input type="button" value="Search" class="search-btn" />
+            </div>
+            <div class="content-section">
+                <div class="data-card ">
+                    <div class="profile-header">
+                        <div class="profile-image">
+                            <img id="avatar" src="" class="display-picture">
+                        </div>
+                        <div class="right-section">
+                            <div class="header-text">
+                                <h2 class="name"></h2>
+                                <p class="profile-joined-date"></p>
+                            </div>
+                            <a class="profile-link" href=""></a>
+                        </div>
+                    </div>
+                    <div class="card-leftside">
+                        <p class="profile-desc"></p>
+                        <div class="stats-section">
+                            <div class="stats-tile">
+                                <p class="stats-title">Repos</p>
+                                <p class="stats" id="repos"></p>
+                            </div>
+                            <div class="stats-tile">
+                                <p class="stats-title">Followers</p>
+                                <p class="stats" id="followers"></p>
+                            </div>
+                            <div class="stats-tile">
+                                <p class="stats-title">Following</p>
+                                <p class="stats" id="followings"></p>
+                            </div>
+                        </div>
+                        <div class="links-section">
+                            <div class="link-container">
+                                <div class="links-section-icons"><img src="./assets/location-icon.svg"
+                                        alt="location-icon"></div>
+                                <p class="city"></p>
+                            </div>
+                            <div class="link-container">
+                                <div class="links-section-icons"><img src="./assets/website-icon.svg"
+                                        alt="website-icon"></div>
+                                <a href="" class="portfolio-link"></a>
+                            </div>
+                            <div class="link-container">
+                                <div class="links-section-icons"><img src="./assets/twitter-icon.svg"
+                                        alt="twitter-icon"></div>
+                                <a href="" class="twitter-link"></a>
+                            </div>
+                            <div class="link-container">
+                                <div class="links-section-icons"><img src="./assets/company-icon.svg"
+                                        alt="company-icon"></div>
+                                <p class="company-name"></p> 
+                                <!-- @TargetTechnology -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Error Message -->
+                <div class="error-card deactive">
+                    <div>
+                        <img src="./assets/error.svg" alt="error image" class="error-img">
+                    </div>
+                    <div class="error-content">
+                        <h2 class="error-heading">404 Error</h2>
+                        <p class="error-desc">Sorry! the user you are looking for could not be found.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="footer-section">
+        <div class="footer-txt">
+            <p>Made By Mantra Gor</p>
+        </div>
+        <div class="footer-links">
+            <p>Connect With Me:</p>
+            <a href="https://github.com/mantra-gor" target="_blank">
+                <i class="fa-brands fa-github link-icons"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mantra-gor/" target="_blank">
+                <i class="fa-brands fa-linkedin-in link-icons"></i>
+            </a>
+            <a href="https://www.instagram.com/mr.cocktail4171/" target="_blank">
+                <i class="fa-brands fa-instagram link-icons"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
