@@ -1,6 +1,7 @@
 # Dev Detective
 
-![Dev Detective Logo](link_to_your_logo_image.png)
+![Dev Detective Logo](https://github.com/mantra-gor/DevDetective/assets/90782108/7c196682-2954-4b4b-a0a1-4e7dd7325782)
+
 
 Welcome to Dev Detective, the fun website that lets you find GitHub profiles and discover interesting information about developers. With just a GitHub username, you can uncover details like avatar picture, bio, join date, repositories count, followers count, following count, location, personal blog, Twitter account, and company affiliation.
 
