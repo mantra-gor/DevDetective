@@ -26,19 +26,35 @@ const twitter_link = document.querySelector('.twitter-link')
 const company_name = document.querySelector('.company-name')
 const error_card = document.querySelector('.error-card')
 const data_card = document.querySelector('.data-card')
-let darkMode = false
+// let darkMode
 
 let joined_date
 
+
 init()
 function init(){
-    darkMode = false
-
-    // dark mode default
-    // code baki hai...
+    let darkMode = false
+    
+    storingModeStage(darkMode)
 
     // by default profile
     getUserData(url + `mantra-gor`)
+}
+
+function storingModeStage(darkMode){
+    let value = localStorage.getItem("dark-mode")
+    console.log(value)
+
+    if(value === null){
+        localStorage.setItem("dark-mode", darkMode)
+        activateLightMode()
+    }
+    else if(value == "true"){
+        activateDarkMode()
+    }
+    else if(value == "false"){
+        activateLightMode()
+    }
 }
 
 search_btn.addEventListener("click", () => {
@@ -145,6 +161,7 @@ function activateDarkMode(){
     modeicon.src = "./assets/sun-icon.svg";
     root.setProperty("--lm-icon-bg", "brightness(1000%)");
     darkMode = true;
+    localStorage.setItem("dark-mode", true)
 }
 
 // Activate Light Mode Function
@@ -158,4 +175,5 @@ function activateLightMode(){
     modeicon.src = "./assets/moon-icon.svg";
     root.setProperty("--lm-icon-bg", "brightness(100%)");
     darkMode = false;
+    localStorage.setItem("dark-mode", false)
 }
