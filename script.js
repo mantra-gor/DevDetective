@@ -43,7 +43,7 @@ function init(){
 
 function storingModeStage(darkMode){
     let value = localStorage.getItem("dark-mode")
-    console.log(value)
+    // console.log(value)
 
     if(value === null){
         localStorage.setItem("dark-mode", darkMode)
